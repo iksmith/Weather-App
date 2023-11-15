@@ -1,0 +1,52 @@
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.location-input {
+  padding: .75rem;
+  width: 80%;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.weather-data {
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif ;
+  margin-top: 3rem;
+}
+
+.city {
+  font-weight: 400;
+}
+
+.temp {
+  font-size: 2rem;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.weather {
+  font-weight: 300;
+}
+
+p {
+  color: #212121;
+  font-weight: 300;
+}
+
+
